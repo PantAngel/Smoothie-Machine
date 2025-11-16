@@ -6,9 +6,11 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smoothie Machine</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <h1>Make your Smothie</h1>
+    <!-- smoothie order form -->
     <form id="SmoothieForm">
         <label>Choose a Base:</label>
         <select id="base">
@@ -16,13 +18,15 @@
             <option value="No Yogurt">No Yogurt</option>
             <option value="Shake Mix" >Shake Mix</option>
             <option value="Smoothie Mix" >Smoothie Mix</option>
-        </select><br><br>
-
+        </select><br>
+        
+        <!-- smoothie options -->
         <label>Smoothie Options:</label><br>
         <input type="checkbox" value="Strawberry Banana"> Strawberry Banana <br>
         <input type="checkbox" value="Blueberry Pomegranete"> Blueberry Pomegranete<br>
         <input type="checkbox" value="Mango Pineapple"> Mango Pineapple<br><br>
 
+        <!-- add protien powder -->
         <label>Add Toppings (CA$ 2.99 each):</label><br>
         <input type="checkbox" value="Protein Powder"> Protein Powder<br><br>
 
