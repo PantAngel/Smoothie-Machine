@@ -41,13 +41,13 @@ function placeOrder() {
     let smoothieImage = "";
 
     if (fruitOptions.includes("Strawberry Banana")) {
-        smoothieImage = "/img/StrawBan.jpg";
+        smoothieImage = "img/StrawBan.jpg";
     } 
     else if (fruitOptions.includes("Blueberry Pomegranete")) {
-        smoothieImage = "/img/BluePom.jpg";
+        smoothieImage = "img/BluePom.jpg";
     }
     else if (fruitOptions.includes("Mango Pineapple")) {
-        smoothieImage = "/img/MangoPineapple.jpg";
+        smoothieImage = "img/MangoPineapple.jpg";
     }
 
     const smoothie = new Smoothie(base, fruitOptions, toppings, smoothieImage);
