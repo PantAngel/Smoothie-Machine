@@ -1,11 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Machine</title>
 </head>
 <body>
-    
+    <h1>Make your Smothie</h1>
+    <form id="Form">
+        <label>Choose a Base:</label>
+        <select id="base">
+            <option value="Yogurt">Yogurt</option>
+            <option value="No Yogurt">No Yogurt</option>
+            <option value="Shake Mix" >Shake Mix</option>
+            <option value="Smoothie Mix" >Smoothie Mix</option>
+        </select><br><br>
+
+        <label>Fruits:</label><br>
+        <input type="checkbox" value="Banana"> Banana<br>
+        <input type="checkbox" value="Strawberry"> Strawberry<br>
+        <input type="checkbox" value="Mango"> Mango<br><br>
+
+        <label>Add Toppings (CA$ 1 each):</label><br>
+        <input type="checkbox" value="Chia Seeds"> Chia Seeds<br>
+        <input type="checkbox" value="Protein Powder"> Protein Powder<br><br>
+
+        <button type="button" onclick="placeOrder()">Order</button>
+
+        <button type="button" onclick="randomSmoothie()">Dealers Choice</button>
+
+    </form>
+
+    <div id="output"></div>
+
 </body>
 </html>
