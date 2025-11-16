@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Make your Smothie</h1>
-    <form id="Form">
+    <form id="SmoothieForm">
         <label>Choose a Base:</label>
         <select id="base">
             <option value="Yogurt">Yogurt</option>
@@ -17,18 +17,16 @@
             <option value="Smoothie Mix" >Smoothie Mix</option>
         </select><br><br>
 
-        <label>Fruits:</label><br>
-        <input type="checkbox" value="Banana"> Banana<br>
-        <input type="checkbox" value="Strawberry"> Strawberry<br>
-        <input type="checkbox" value="Mango"> Mango<br><br>
+        <label>Smoothie Options:</label><br>
+        <input type="checkbox" value="Strawberry Banana"> Strawberry Banana <br>
+        <input type="checkbox" value="Blueberry Pomegranete"> Blueberry Pomegranete<br>
+        <input type="checkbox" value="Mango Pineapple"> Mango Pineapple<br><br>
 
-        <label>Add Toppings (CA$ 1 each):</label><br>
-        <input type="checkbox" value="Chia Seeds"> Chia Seeds<br>
+        <label>Add Toppings (CA$ 2.99 each):</label><br>
         <input type="checkbox" value="Protein Powder"> Protein Powder<br><br>
 
         <button type="button" onclick="placeOrder()">Order</button>
 
-        <button type="button" onclick="randomSmoothie()">Dealers Choice</button>
 
     </form>
 
